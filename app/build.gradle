@@ -135,6 +135,7 @@ dependencies {
     implementation "com.android.support:design:$versions.android_support"
     implementation "com.android.support.constraint:constraint-layout:$versions.constraint_layout"
     implementation "com.android.billingclient:billing:$versions.billing"
+    implementation "com.google.android.gms:play-services-auth:11.8.0"
 
     // Rx
     implementation "io.reactivex.rxjava2:rxjava:$versions.rxjava"

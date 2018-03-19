@@ -16,7 +16,7 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity
-            android:name="pm.gnosis.heimdall.ui.splash.SplashActivity"
+            android:name=".ui.splash.SplashActivity"
             android:launchMode="singleTask"
             android:screenOrientation="portrait"
             android:theme="@style/SplashTheme">
@@ -74,13 +74,20 @@
             android:screenOrientation="portrait" />
         <activity
             android:name=".ui.onboarding.account.AccountSetupActivity"
-            android:screenOrientation="portrait" />
+            android:screenOrientation="portrait"
+            android:theme="@style/OnBoardingTheme" />
         <activity
             android:name=".ui.onboarding.password.PasswordSetupActivity"
-            android:screenOrientation="portrait" />
+            android:screenOrientation="portrait"
+            android:theme="@style/OnBoardingTheme" />
+        <activity
+            android:name=".ui.onboarding.password.PasswordConfirmActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/OnBoardingTheme" />
         <activity
             android:name=".ui.onboarding.account.create.GenerateMnemonicActivity"
-            android:screenOrientation="portrait" />
+            android:screenOrientation="portrait"
+            android:theme="@style/OnBoardingTheme" />
         <activity
             android:name=".ui.onboarding.SetupSafeIntroActivity"
             android:screenOrientation="portrait" />
@@ -89,7 +96,8 @@
             android:screenOrientation="portrait" />
         <activity
             android:name=".ui.onboarding.OnboardingIntro"
-            android:screenOrientation="portrait" />
+            android:screenOrientation="portrait"
+            android:theme="@style/OnBoardingTheme" />
         <activity
             android:name=".ui.settings.security.SecuritySettingsActivity"
             android:screenOrientation="portrait" />
@@ -112,7 +120,6 @@
             android:name=".ui.transactions.ReceiptTransactionActivity"
             android:screenOrientation="portrait"
             android:theme="@style/CardTheme" />
-
         <activity
             android:name=".ui.safe.selection.SelectSafeActivity"
             android:screenOrientation="portrait" />
